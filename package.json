@@ -1,0 +1,12 @@
+{
+  "main": "index.html",
+  "name": "Ji Wei's Demo for NW.js",
+  "window": {
+    "toolbar": true,
+    "frame": true,
+    "title": "Ji Wei's Demo for NW.js",
+    "position": "mouse",
+    "width": 1024,
+    "height": 768
+  }
+}

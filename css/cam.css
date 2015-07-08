@@ -1,0 +1,54 @@
+#cam, #photo, #filters {
+    border: 1px solid #eee;
+}
+
+#filters > .filter {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#filters > .filter:hover {
+    background-color: #c0c0c0;
+}
+
+video {
+    width: 307px;
+    height: 250px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid #ccc;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(20%);
+}
+.sepia {
+    -webkit-filter: sepia(20%);
+}
+
+.blur {
+    -webkit-filter: blur(2px);
+}
+
+.brightness {
+    -webkit-filter: brightness(2.5);
+}
+
+.contrast {
+    -webkit-filter: contrast(2);
+}
+
+.hue-rotate {
+    -webkit-filter: hue-rotate(90deg);
+}
+
+.saturate {
+    -webkit-filter: saturate(2);
+}
+
+.invert {
+    -webkit-filter: invert(0.2);
+}

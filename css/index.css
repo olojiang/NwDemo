@@ -1,0 +1,22 @@
+h3 {
+    color: grey;
+}
+
+body {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    -webkit-app-region: no-drag;
+}
+
+.noSelect {
+     -webkit-user-select: none;
+ }
+
+.pad10 {
+    padding: 10px;
+}
